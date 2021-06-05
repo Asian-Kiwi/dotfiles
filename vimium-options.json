@@ -1,0 +1,78 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://play.pokemonshowdown.com/*",
+      "passKeys": "r"
+    },
+    {
+      "pattern": "https://www.dropbox.com/",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.twitch.tv/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://echo360.org.au/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.programiz.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://app.lucidchart.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://lfz-battle.uzairashraf.dev/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "about:srcdoc*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://monkeytype.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.keybr.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://play.typeracer.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://10ff.net/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.tinkercad.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\nmap d removeTab\nmap u restoreTab\nunmap <c-y>\nunmap <c-e>\nunmap <a-f>\nmap a-f LinkHints.activateModeToOpenInNewForegroundTab\nmap { scrollPageUp\nmap } scrollPageDown\n\nmap w scrollUp\nmap s scrollDown\nmap a scrollLeft\nmap d scrollRight\nmap A goBack\nmap D goForward\nmap W previousTab\nmap S nextTab\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\n\nmap m toggleMuteTab",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "chrome://newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "az: https://www.amazon.com.au/s?k=%s Amazon AU\nw: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\nyt: https://www.youtube.com/results?search_query=%s Youtube\nt: https://www.twitch.tv/search?term=%s Twitch\nf: https://www.facebook.com/search/top/?q=%s&opensearch=1 Facebook\nfm: https://www.facebook.com/marketplace/brisbane/search/?query=%s Facebook Marketplace\ngt: https://www.gumtree.com.au/s-qld/%s/k0l3008841?categoryRedirected=true Gumtree\nr: https://www.reddit.com/search?q=%s&utm_source=opensearch Reddit\ngm: https://www.google.com/maps/search/%s?hl=en&source=opensearch Google Maps\ngs: https://scholar.google.com/scholar?&q=%s Google Scholar\naw: https://wiki.archlinux.org/index.php?title=Special:Search&search=%s Arch Wiki\nsr: https://www.reddit.com/r/%s Reddit\ngi: https://www.google.com/search?tbm=isch&sxsrf=ALeKk03xDmdMoRukoX2NLMdjixOTp72XNA%3A1602046600717&source=hp&biw=1707&bih=772&ei=iEp9X7edKcbfz7sPluGsoAc&q=%s&oq=bahamas&gs_lcp=CgNpbWcQAzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BwgjEOoCECc6BAgjECc6CAgAELEDEIMBUMZYWI9eYN1eaAJwAHgAgAHJAYgBiweSAQUwLjQuMZgBAKABAaoBC2d3cy13aXotaW1nsAEK&sclient=img&ved=0ahUKEwi3gbDU2KHsAhXG73MBHZYwC3QQ4dUDCAc&uact=5 Google Images\nawp: https://archlinux.org/packages/?sort=&q=%s Arch Wiki Packages\naur: https://aur.archlinux.org/packages/?O=0&K=%s AUR\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
